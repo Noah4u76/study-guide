@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  max-width: 1000px; /* Increased max-width to expand the container */
+  margin: 100px auto 0; /* Adjust top margin to account for fixed navbar */
+  padding: 40px; /* Increased padding */
+  border: 5px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.examples {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.examples li {
+  margin-bottom: 10px;
+}
+
+.example-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.example-table th,
+.example-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.example-table th {
+  background-color: #f2f2f2;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #b472ff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+.example-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
