@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Study Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web-based study guide for various topics in propositional logic, sets, and more. It is built using React and React Router for seamless navigation between different topics.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up this project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/study-guide.git
+   cd study-guide
+   
+2. **Install the dependencies:**
+   ```bash
+   npm install
 
-### `npm test`
+  Make sure you have Node.js and npm installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. **To start the development server, run:**
+```bash
+npm start
+```
+This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+study-guide/
+├── public/
+│   └── ...
+├── src/
+│   ├── components/
+│   │   └── ...
+│   ├── Images/
+│   │   └── ...
+│   ├── pages/
+│   │   └── ...
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+React Router: For navigating between different topics.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Responsive Design: The layout adjusts for different screen sizes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Styled Components: CSS styling for components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
-## Learn More
+**Steps to Contribute:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Fork the repository**
+2.. **Create a new branch**
+```bash
+git checkout -b feature-name
+```
+3. **Make your changes**
+4. **Commit your changes**
+```bash
+git commit -m "Description of changes"
+```
+5. **Push to the branch**
+```bash
+git push origin feature-name
+```
+6. **Create a Pull Request**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+**This project is licensed under the MIT License. See the LICENSE file for details.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Connect
 
-### Analyzing the Bundle Size
+Connect with the author:
+- [LinkedIn](https://www.linkedin.com/in/noah-sanderson/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+```bash
+### Instructions for Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Clone the repository**: Copy the repository link from GitHub and run the `git clone` command followed by the repository link.
+2. **Install dependencies**: Navigate to the project directory and run `npm install` to install all the necessary dependencies.
+3. **Start the development server**: Run `npm start` to start the development server and view the project in your browser.
 
-### Advanced Configuration
+### Tips for Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- To update the topics, modify the `Home.js` file.
+- To add more styles, update the `Home.css` file.
+- Ensure your images and other assets are placed in the correct directories as specified in the project structure.
 
-### Deployment
+By following these guidelines, you can set up and customize the study guide project effectively.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
