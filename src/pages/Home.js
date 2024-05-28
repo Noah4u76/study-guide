@@ -24,7 +24,6 @@ function Home() {
         <li><button><Link to="/topics/Functions">2.3: Functions</Link></button></li>
         <li><button><Link to="/topics/Sequences-and-Summations">2.4: Sequences and Summations</Link></button></li>
         <li><button><Link to="/topics/Cardinality-of-Sets">2.5: Cardinality of Sets</Link></button></li>
-        <li><button><Link to="/topics/Matrices">2.6: Matrices</Link></button></li>
       </ul>
       <Link to="/topics/prop-logic">
         <button>Study!</button>

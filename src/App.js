@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar'; // Import the Navbar component
+import Navbar from './components/Navbar';
 import './App.css';
 import Home from './pages/Home';
 import LogicProofs from './pages/topics/Proplogic';
@@ -16,7 +16,6 @@ import SetOperations from './pages/topics/SetOperations';
 import Functions from './pages/topics/Functions';
 import SeqandSum from './pages/topics/SeqandSum';
 import CardinalitySets from './pages/topics/CardinalitySets';
-import Matrices from './pages/topics/Matrices';
 
 
 
@@ -46,7 +45,6 @@ function App() {
             <Route path="/topics/Functions" element={<Functions />} />
             <Route path="/topics/Sequences-and-Summations" element={<SeqandSum />} />
             <Route path="/topics/Cardinality-of-Sets" element={<CardinalitySets />} />
-            <Route path="/topics/Matrices" element={<Matrices />} />
 
           </Routes>
         </main>
