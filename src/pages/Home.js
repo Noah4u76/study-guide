@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './topics/ScrollToTopLink';
 import './Home.css';
 
 function Home() {
@@ -8,26 +8,26 @@ function Home() {
       <p>Select a topic to start learning:</p>
       <h2>Chapter 1</h2>
       <ul className='topics'>
-        <li><button><Link to="/topics/prop-logic">1.1: Propositional Logic</Link></button></li>
-        <li><button><Link to="/topics/App-Of-Prop-Logic">1.2: Applications of Propositional Logic</Link></button></li>
-        <li><button><Link to="/topics/Prop-Equivalences">1.3: Propositional Equivalences</Link></button></li>
-        <li><button><Link to="/topics/Predicates-and-Quantifiers">1.4: Predicates and Quantifiers</Link></button></li>
-        <li><button><Link to="/topics/Nested-Quantifiers">1.5: Nested Quantifiers</Link></button></li>
-        <li><button><Link to="/topics/Rules-of-Inference">1.6: Rules of Inference</Link></button></li>
-        <li><button><Link to="/topics/Intro-to-Proofs">1.7: Introduction to Proofs</Link></button></li>
-        <li><button><Link to="/topics/Proof-Methods-and-Strategy">1.8: Proof Methods and Strategy</Link></button></li>
+        <li><button><ScrollToTopLink to="/topics/prop-logic">1.1: Propositional Logic</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/App-Of-Prop-Logic">1.2: Applications of Propositional Logic</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Prop-Equivalences">1.3: Propositional Equivalences</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Predicates-and-Quantifiers">1.4: Predicates and Quantifiers</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Nested-Quantifiers">1.5: Nested Quantifiers</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Rules-of-Inference">1.6: Rules of Inference</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Intro-to-Proofs">1.7: Introduction to Proofs</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Proof-Methods-and-Strategy">1.8: Proof Methods and Strategy</ScrollToTopLink></button></li>
       </ul>
       <h2>Chapter 2</h2>
       <ul>
-        <li><button><Link to="/topics/Sets">2.1: Sets</Link></button></li>
-        <li><button><Link to="/topics/Set-Operations">2.2: Set Operations</Link></button></li>
-        <li><button><Link to="/topics/Functions">2.3: Functions</Link></button></li>
-        <li><button><Link to="/topics/Sequences-and-Summations">2.4: Sequences and Summations</Link></button></li>
-        <li><button><Link to="/topics/Cardinality-of-Sets">2.5: Cardinality of Sets</Link></button></li>
+        <li><button><ScrollToTopLink to="/topics/Sets">2.1: Sets</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Set-Operations">2.2: Set Operations</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Functions">2.3: Functions</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Sequences-and-Summations">2.4: Sequences and Summations</ScrollToTopLink></button></li>
+        <li><button><ScrollToTopLink to="/topics/Cardinality-of-Sets">2.5: Cardinality of Sets</ScrollToTopLink></button></li>
       </ul>
-      <Link to="/topics/prop-logic">
+      <ScrollToTopLink to="/topics/prop-logic">
         <button>Study!</button>
-      </Link>
+      </ScrollToTopLink>
       {/* Footer */}
       <footer className="footer">
         <p>Connect with me!</p>

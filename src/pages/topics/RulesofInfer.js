@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 
 function RulesofInfer() {
@@ -92,12 +92,12 @@ function RulesofInfer() {
       <p>________________________________________________________</p>
 
       <div className="button-container">
-<Link to="/topics/Nested-Quantifiers">
+<ScrollToTopLink  to="/topics/Nested-Quantifiers">
     <button>Previous: 1.5</button>
-  </Link>
-  <Link to="/topics/Intro-to-Proofs">
+  </ScrollToTopLink>
+  <ScrollToTopLink  to="/topics/Intro-to-Proofs">
     <button>Next Section: 1.7</button>
-  </Link>
+  </ScrollToTopLink>
 </div>
 </div>
   );

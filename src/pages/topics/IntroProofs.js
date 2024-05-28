@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 
 function IntroProofs() {
@@ -72,12 +72,12 @@ function IntroProofs() {
 <p>________________________________________________________</p>
 
 <div className="button-container">
-<Link to="/topics/Rules-of-Inference">
+<ScrollToTopLink  to="/topics/Rules-of-Inference">
     <button>Previous: 1.6</button>
-  </Link>
-  <Link to="/topics/Proof-Methods-and-Strategy">
+  </ScrollToTopLink>
+  <ScrollToTopLink  to="/topics/Proof-Methods-and-Strategy">
     <button>Next Section: 1.8</button>
-  </Link>
+  </ScrollToTopLink>
 </div>
 
 </div>

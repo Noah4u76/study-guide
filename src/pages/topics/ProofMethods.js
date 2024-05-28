@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 
 function ProofMethods() {
@@ -56,12 +56,12 @@ function ProofMethods() {
 <p>________________________________________________________</p>
 
 <div className="button-container">
-<Link to="/topics/Intro-to-Proofs">
+<ScrollToTopLink to="/topics/Intro-to-Proofs">
     <button>Previous: 1.7</button>
-  </Link>
-  <Link to="/">
+  </ScrollToTopLink >
+  <ScrollToTopLink to="/">
     <button>Home</button>
-  </Link>
+  </ScrollToTopLink >
 </div>
 
 </div>

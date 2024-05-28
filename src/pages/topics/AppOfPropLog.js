@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import inverterImage from '../../images/Negation Circuit.png';
 import ANDImage from '../../images/AND Circuit.png';
 import ORImage from '../../images/OR Circuit.png';
 import EXCircuit from '../../images/Circuit Ex.png';
+import ScrollToTopLink from './ScrollToTopLink';
 
 function AppOfPropLogic() {
   return (
@@ -54,12 +54,12 @@ function AppOfPropLogic() {
       </ul>
       <p>________________________________________________________</p>
       <div className="button-container">
-        <Link to="/topics/prop-logic">
+        <ScrollToTopLink  to="/topics/prop-logic">
           <button className="button">Previous: 1.1</button>
-        </Link>
-        <Link to="/topics/Prop-Equivalences">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/topics/Prop-Equivalences">
           <button className="button">Next Section: 1.3</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
     </div>
   );

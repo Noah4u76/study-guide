@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './CardStyle.css';
+import ScrollToTopLink from './ScrollToTopLink';
 
 function PropLogic() {
   return (
@@ -244,12 +244,12 @@ function PropLogic() {
       <p>________________________________________________________</p>
       
       <div className="button-container">
-      <Link to="/">
+      <ScrollToTopLink to="/">
           <button>Home</button>
-        </Link>
-        <Link to="/topics/App-Of-Prop-Logic">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/topics/App-Of-Prop-Logic">
           <button>Next Section: 1.2</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
     </div>
   );

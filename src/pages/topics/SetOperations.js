@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 import UnionVenn from '../../images/Union Venn.png';
 import InterVenn from '../../images/Intersection Venn.png';
 import DifferenceVenn from '../../images/Difference Venn.png';
@@ -82,12 +82,12 @@ function SetOperations() {
         <p>________________________________________________________</p>
 
         <div className="button-container">
-      <Link to="/topics/Sets">
+      <ScrollToTopLink  to="/topics/Sets">
           <button>Previous: 2.1</button>
-        </Link>
-        <Link to="/topics/Functions">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/topics/Functions">
           <button>Next Section: 2.3</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
 </div>
   );

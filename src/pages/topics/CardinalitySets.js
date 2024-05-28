@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 
 function CardinalitySets() {
@@ -36,12 +36,12 @@ function CardinalitySets() {
         <p>________________________________________________________</p>
 
         <div className="button-container">
-      <Link to="/topics/Sequences-and-Summations">
+      <ScrollToTopLink  to="/topics/Sequences-and-Summations">
           <button>Previous: 2.4</button>
-        </Link>
-        <Link to="/">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/">
           <button>Home</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
 </div>
   );

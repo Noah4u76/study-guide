@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 function PropEquiv() {
   return (
@@ -211,12 +211,12 @@ function PropEquiv() {
 
 
       <div className="button-container">
-        <Link to="/topics/App-Of-Prop-Logic">
+        <ScrollToTopLink  to="/topics/App-Of-Prop-Logic">
           <button className="button">Previous: 1.2</button>
-        </Link>
-        <Link to="/topics/Predicates-and-Quantifiers">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/topics/Predicates-and-Quantifiers">
           <button className="button">Next Section: 1.4</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
 </div>
   );

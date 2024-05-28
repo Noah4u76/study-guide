@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 function PredandQuant() {
   return (
@@ -39,12 +39,12 @@ function PredandQuant() {
 
       
 <div className="button-container">
-<Link to="/topics/Prop-Equivalences">
+<ScrollToTopLink to="/topics/Prop-Equivalences">
     <button>Previous: 1.3</button>
-  </Link>
-  <Link to="/topics/Nested-Quantifiers">
+  </ScrollToTopLink >
+  <ScrollToTopLink to="/topics/Nested-Quantifiers">
     <button>Next Section: 1.5</button>
-  </Link>
+  </ScrollToTopLink >
 </div>
 </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 function NestedQuant() {
   return (
@@ -120,12 +120,12 @@ function NestedQuant() {
         <p>________________________________________________________</p>
 
       <div className="button-container">
-<Link to="/topics/Predicates-and-Quantifiers">
+<ScrollToTopLink to="/topics/Predicates-and-Quantifiers">
     <button>Previous: 1.4</button>
-  </Link>
-  <Link to="/topics/Rules-of-Inference">
+  </ScrollToTopLink >
+  <ScrollToTopLink to="/topics/Rules-of-Inference">
     <button>Next Section: 1.6</button>
-  </Link>
+  </ScrollToTopLink >
 </div>
 </div>
   );

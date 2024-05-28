@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 import Function from '../../images/Functions.png';
 import onetoone from '../../images/one to one.png';
 import notonetoone from '../../images/Not one to one.png';
@@ -119,12 +119,12 @@ function Functions() {
         <p>________________________________________________________</p>
 
         <div className="button-container">
-      <Link to="/topics/Set-Operations">
+      <ScrollToTopLink  to="/topics/Set-Operations">
           <button>Previous: 2.2</button>
-        </Link>
-        <Link to="/topics/Sequences-and-Summations">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/topics/Sequences-and-Summations">
           <button>Next Section: 2.4</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
         </ul>
 

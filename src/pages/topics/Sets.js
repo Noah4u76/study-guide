@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 function Sets() {
   return (
@@ -47,12 +47,12 @@ function Sets() {
         <p>________________________________________________________</p>
 
         <div className="button-container">
-      <Link to="/">
+      <ScrollToTopLink  to="/">
           <button>Home</button>
-        </Link>
-        <Link to="/topics/Set-Operations">
+        </ScrollToTopLink>
+        <ScrollToTopLink  to="/topics/Set-Operations">
           <button>Next Section: 2.2</button>
-        </Link>
+        </ScrollToTopLink>
       </div>
 </div>
   );

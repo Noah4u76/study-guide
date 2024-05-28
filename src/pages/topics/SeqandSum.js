@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ScrollToTopLink from './ScrollToTopLink';
 
 
 function SeqandSum() {
@@ -49,12 +49,12 @@ function SeqandSum() {
         <p>________________________________________________________</p>
 
         <div className="button-container">
-      <Link to="/topics/Functions">
+      <ScrollToTopLink to="/topics/Functions">
           <button>Previous: 2.3</button>
-        </Link>
-        <Link to="/topics/Cardinality-of-Sets">
+        </ScrollToTopLink >
+        <ScrollToTopLink to="/topics/Cardinality-of-Sets">
           <button>Next Section: 2.5</button>
-        </Link>
+        </ScrollToTopLink >
       </div>
 </div>
   );
